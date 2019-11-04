@@ -1,0 +1,180 @@
+
+body {
+    background: white;
+
+}
+
+a {
+    font-size: 20.35px;
+    color: #211d1d;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+a:hover {
+    text-decoration: underline #707ce2;
+}
+
+
+.flex_nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    height: 90px;
+    align-items: flex-end;
+}
+
+.flex_nav-bar__logo{
+    height: 90px;
+    width: 150px;
+    line-height: 1px;
+}
+h1.black {
+    font-size: 42px;
+    color: black;
+    margin-left: 140px;
+    margin-top: -1px;
+    font-family: 'Segoe UI Light';
+}
+
+h1.white {
+    font-size: 42px;
+    color: white;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 95px;
+    font-family: 'Source Sans Pro ExtraLight';
+}
+.logo {
+    position: relative;
+    top: 24px;
+    padding-left: 85px;
+}
+
+.main {
+    font-family: 'Segoe UI Light';
+}
+
+
+ul.menu li {
+    display: inline;
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}
+
+.fon {
+    height: 490px !important;
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+
+}
+
+.flex_block2 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: -450px;
+    margin-bottom: 100px;
+}
+.phono{
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+
+
+h4.tt {
+    color: white;
+    position:absolute;
+    margin-top: 5px;
+    margin-left:50px;
+    font-family: 'Segoe UI Light';
+}
+
+h4 {
+    font-size: 20.35px;
+    color: #5094f2;
+}
+
+.galka{
+    margin-left: -163px;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: white;
+    font-family: 'Segoe UI Light';
+}
+.whitetext{
+    color: white;
+}
+
+
+.flex_shar{
+      display: flex;
+      flex-direction: row;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 100px;;
+      font-family: 'Segoe UI Light';
+}
+
+.shar{
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.absolute {
+    position: absolute;
+    margin-left: 94px;
+    margin-top: -135px;
+}
+
+.flex_cart {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-family: 'Segoe WP Light';
+
+}
+h2{
+    margin-left: 50px;
+    font-family: 'Segoe UI Light';
+}
+h3{
+    font-family: 'Segoe UI Light';
+}
+/*.text3{
+    position: absolute;
+    margin-left: 40px;
+}*/
+
+footer {
+    height: 95px;
+    border-top: black;
+}
+
+footer p {
+    text-align: center;
+    line-height: 95px;
+    border-top: 1px solid black;
+}
